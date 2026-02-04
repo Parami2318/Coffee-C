@@ -1,0 +1,31 @@
+:root {
+  /*primary colors*/
+  --Cream-background : #CFA374;
+  --Dark-brown : #533925;
+  --light-brownf : 
+}
+
+body {
+  font-family: Inter;
+  background-color: #CFA374;
+  color: aliceblue;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+}
+
+.logo img {
+  height: 60px;
+  width: 130px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  color: #533925;
+}
