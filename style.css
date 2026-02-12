@@ -46,25 +46,32 @@ nav ul {
 
 .coverimg img {
   width: 100%;
-  height: 50%;
+  height: 100%;
+  transition: opacity 0.9s ease-in-out;
 }
 
 .coverimg p {
   position: absolute;
   top: 15%;
-  left: 60%;
-  font-size: 10rem;
+  left: 55%;
+  font-size: 12rem;
   text-align: center;
 }
 
 .coverimg button{
-  font-size: 75px;
+  font-size: 90px;
   position: absolute;
   height: 200px;
   width: 550px;
   color: aliceblue;
-  background-color: #533925;
-  border-radius: 10%;
-  top: 55%;
-  left: 75%;
+  background-color: transparent;
+  border: 8px solid white;
+  top: 45%;
+  left: 70%;
+}
+
+h3{
+  font-size: 5rem;
+  color: #533925;
+  text-align: center;
 }
