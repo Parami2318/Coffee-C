@@ -46,6 +46,8 @@ nav ul {
   font-weight:300;
 }
 
+/*body*/
+
 .coverimg {
   position: relative;
   padding-bottom: 2rem;
@@ -132,6 +134,7 @@ h4{
  font-size: 4.7rem;
 }
 
+/*footer*/
 #footer{
   background-color: #533925;
   height: 100rem;
