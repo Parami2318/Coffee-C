@@ -1,7 +1,7 @@
 let images = [
-  "Images/cover1.jpg",
-  "Images/cover2.jpg",
-  "Images/cover3.jpg"
+  "../Images/cover1.jpg",
+  "../Images/cover2.jpg",
+  "../Images/cover3.jpg"
 ];
 
 let index = 0;
