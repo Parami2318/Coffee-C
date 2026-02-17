@@ -21,6 +21,10 @@ body {
 
 header {
   position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #CFA374;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -91,7 +95,7 @@ h4{
   text-align: left;
 }
 
-hr{
+.line{
   border: none;
   height: 4px;
   background-color: #533925;
@@ -130,4 +134,36 @@ hr{
 #footer{
   background-color: #533925;
   height: 100rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerimg{
+  padding-top: 25rem;
+  padding-left: 10rem;
+}
+
+.footerimg img{
+  padding-left: 20rem;
+  width: 1100px;
+  height: 450px;
+}
+
+.footerimg-sidetext{
+  text-align: center;
+  margin-top: 0%; 
+  padding-left: 13rem;
+}
+.footertext{
+  padding-right: 20rem;
+  padding-top: 16rem;
+}
+
+.social a{
+  display: inline-block;
+  background: white;
+  color:#533925;
+  width: 7rem;
+  height: 6rem;
+  text-align: center;
 }
