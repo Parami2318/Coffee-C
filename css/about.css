@@ -2,6 +2,7 @@
   /*primary colors*/
   --Cream-background : #CFA374;
   --Dark-brown : #533925;
+  --button-hover : #2d1c10;
 }
 
 * {
@@ -32,18 +33,55 @@ header {
   padding: 50px 100px;
 }
 
+.logo{
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
 .logo img {
   height: 300px;
-  width: 700px;
+  width: 300px;
+}
+.logo img:hover{
+  cursor: pointer;
 }
 
 nav ul {
   display: flex;
-  gap: 250px;
+  gap: 150px;
   list-style: none;
   color: #533925;
-  font-size: 5.5rem;
-  font-weight:300;
+  font-size: 5rem;
+  font-weight:500;
+}
+nav ul li:hover{
+  cursor: pointer;
+  color: #2d1c10;
+}
+
+.left-side-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.signin-join-btn{
+  padding-bottom: 90px;
+}
+
+.headder-btn{
+  font-size: 4.5rem;
+  height: 150px;
+  width: 370px;
+  border-radius: 75px;
+  color: #533925;
+  background-color: transparent;
+  border: 8px solid #533925;
+}
+
+.headder-btn:hover{
+  cursor: pointer;
+  background-color: #2d1c10;
+  border: #2d1c10;
+  color: white;
 }
 
 
@@ -67,8 +105,8 @@ nav ul {
 }
 
 .footerimg img{
-  padding-left: 20rem;
-  width: 1100px;
+  padding-left: 25rem;
+  width: 850px;
   height: 450px;
 }
 
