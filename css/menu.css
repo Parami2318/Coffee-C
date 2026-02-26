@@ -95,15 +95,21 @@ nav ul li:hover{
 .top-sellings{
   display: flex;
   justify-content: space-between;
-  height: 100rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 18rem;
+  padding-right: 18rem;
 }
 
-.pro-card{
-  height: 65rem;
+
+.pro-card-details{
   width: 45rem;
-  background-color: white;
+  background-color: rgb(139, 103, 81);
+  height: 65rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.pro-card-details:hover{
+  transform: scale(1.01);
 }
 
 .pro-card-details img{
@@ -114,25 +120,31 @@ nav ul li:hover{
 }
 
 h6{
-  color: black;
+  color:#2d1c10;
   font-size: 4rem;
   margin: 0%;
 }
 
 h5{
   padding-left: 2.5rem;
-  color: black;
+  color:#2d1c10;
   margin: 0%;
 }
 
 .btn-buy{
-  font-size: 3.5rem;
-  height: 100px;
-  width: 300px;
+  font-size: 3rem;
+  height: 95px;
+  width: 280px;
   border-radius: 75px;
-  color:black;
+  color:#2d1c10;
   background-color: transparent;
-  border: 8px solid black;
+  border: 8px solid #2d1c10;
+}
+
+.btn-buy:hover{
+  cursor: pointer;
+  color: white;
+  background-color:#2d1c10;
 }
 
 .price{

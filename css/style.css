@@ -53,6 +53,7 @@ nav ul {
   font-size: 5rem;
   font-weight:500;
 }
+
 nav ul li:hover{
   cursor: pointer;
   color: #2d1c10;
