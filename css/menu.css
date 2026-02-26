@@ -85,58 +85,19 @@ nav ul li:hover{
 }
 /*body*/
 
-.category-description{
-  font-size: 3rem;
-  color: black;
-  margin-left: 3rem;
-  font-weight: 300;
-}
-
-h4{
-  margin: 0%;
-  font-size: 5rem;
-  color: black;
-  margin-left: 3rem;
-  margin-top: 3rem;
-}
-
-.cover{
-  height:100rem;
-  padding: 45rem;
-  padding-top: 3rem;
-  background-color: #C69D72; 
-}
-
 .cover-caption{
   color: black;
   text-align: center;
-}
-
-.categories{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.category-cards{
-  background-color: white;
-  height: 80rem;
-  width: 50rem;
-  transition: transform 0.3s ease ;
-}
-
-.category-cards:hover{
-  cursor: pointer;
-  transform: scale(1.01);
-
-}
-
-.category-cards img{
-  width: 50rem;
+  margin: 5rem;
+  margin-bottom: 5rem;
 }
 
 .top-sellings{
+  display: flex;
+  justify-content: space-between;
   height: 100rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pro-card{
@@ -146,8 +107,10 @@ h4{
 }
 
 .pro-card-details img{
-  padding-left: 2.3rem;
+  margin-left: 2.5rem;
   padding-top: 2rem;
+  height: 674px;
+  width: 674px;
 }
 
 h6{
@@ -157,6 +120,7 @@ h6{
 }
 
 h5{
+  padding-left: 2.5rem;
   color: black;
   margin: 0%;
 }
@@ -176,6 +140,8 @@ h5{
   height: 100px;
   display: flex;
   justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /*footer*/
