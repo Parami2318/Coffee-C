@@ -83,16 +83,100 @@ nav ul li:hover{
   border: #2d1c10;
   color: white;
 }
+/*body*/
 
-.categoriess{
-  background-color: #C69D72;
-  height: 70rem;
+.category-description{
+  font-size: 3rem;
+  color: black;
+  margin-left: 3rem;
+  font-weight: 300;
 }
 
+h4{
+  margin: 0%;
+  font-size: 5rem;
+  color: black;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
 
+.cover{
+  height:100rem;
+  padding: 45rem;
+  padding-top: 3rem;
+  background-color: #C69D72; 
+}
 
+.cover-caption{
+  color: black;
+  text-align: center;
+}
 
+.categories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.category-cards{
+  background-color: white;
+  height: 80rem;
+  width: 50rem;
+  transition: transform 0.3s ease ;
+}
+
+.category-cards:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+
+}
+
+.category-cards img{
+  width: 50rem;
+}
+
+.top-sellings{
+  height: 100rem;
+}
+
+.pro-card{
+  height: 65rem;
+  width: 45rem;
+  background-color: white;
+}
+
+.pro-card-details img{
+  padding-left: 2.3rem;
+  padding-top: 2rem;
+}
+
+h6{
+  color: black;
+  font-size: 4rem;
+  margin: 0%;
+}
+
+h5{
+  color: black;
+  margin: 0%;
+}
+
+.btn-buy{
+  font-size: 3.5rem;
+  height: 100px;
+  width: 300px;
+  border-radius: 75px;
+  color:black;
+  background-color: transparent;
+  border: 8px solid black;
+}
+
+.price{
+  margin-top: 5rem;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
 
 /*footer*/
 #footer{
