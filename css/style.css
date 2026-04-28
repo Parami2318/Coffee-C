@@ -59,6 +59,17 @@ nav ul li:hover{
   color: #2d1c10;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #533925;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+nav ul li a:visited {
+  color: #533925;
+}
+
 .left-side-header{
   display: flex;
   flex-direction: row;
